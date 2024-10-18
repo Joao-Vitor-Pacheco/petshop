@@ -1,0 +1,174 @@
+/*estilos globais*/
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    text-decoration: none;  
+    box-sizing: border-box;
+}
+body{
+    background-color: #ffff;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+.tamanho-fixo{
+    width: 100%;
+    padding: 120px 80px;
+}
+.tamanho-roxo-fixo{
+   padding: 120px 80px;
+   background-color: #3c184e;
+   text-align: center;
+   color: white;
+}
+.tamanho-roxo-fixo p{
+    max-width: 800px;
+    margin: 0 auto 50px auto;
+    font-size: 40px;
+    text-align: center;
+}
+.tamanho-roxo-fixo img{
+    margin-left: 20px;
+    margin-right: 20px; 
+    width: 50px;
+
+}
+.negrito{
+    font-weight: bold;
+    font-style:  italic;
+}
+h3{
+    font-size: 36px;
+    color: #3c184e;
+    margin: 0 0 45px 0;
+    text-align: center;
+}
+
+/*seçao banner*/
+
+
+.barra-top{
+    background-color: #b8b1f338;
+    position: fixed;
+    width: 100%;
+    top: 5px;
+    background-position: center;
+    background-size: cover;
+}
+.banner .logo{
+    max-width: 250px;
+}
+.banner .logo img{
+width: 30px;
+margin-right: 5px;
+}
+.banner .logo .titulo{
+    font-size: 35px;
+    margin-bottom: 0 0 5px 0;
+    color: #3c184e;
+    display: inline;
+}
+.banner .logo .subtitulo{
+    font-size: 14px;    
+    text-align: center;
+    margin: 0;
+    color: #3c184e;
+}
+.img-fundo{
+    background-image: url(img/banner-topo.jpg);
+    width: 100vw;
+    padding: 120px 80px;
+    background-position: center;
+    background-size: cover;
+    
+}
+.box-banner{
+    max-width: 1300px;
+    border-radius: 10px;
+    padding: 40px;
+    margin: 70px auto 0 auto;
+    background-color: #ffffffc4;
+    box-shadow: 0 8px 37px #1f26875e;
+    text-align: center;
+}
+.banner .box-banner h1{
+    font-size: 60px;
+    color: #3c184e;
+    text-align: center;
+    margin: 0 0 40px 0;
+    font-weight: bold;
+}
+.box-banner a{
+    width: 200px;
+    padding: 10px 25px;
+    margin: 0 auto 0 auto;
+    border-radius: 10px;
+    background-color: #3c184e;
+    font-size: 20px;
+    text-align: center; 
+    color: #ffff;
+}
+.box-banner img{
+    width: 20px;
+    display: inline;
+}
+
+/*serviços*/
+
+.serviços .lista-serviços{
+    max-width: 800px;
+    margin: 0 auto 50px auto;
+    color: #3c184e;
+}
+.serviços .lista-serviços ul{
+    font-size: 20px;
+    margin:0 0 20px 0;
+}
+.serviços .img-serviços{
+    max-width: 800px;
+    margin:0 auto 0 auto;
+    text-align: center;
+}
+.serviços img{
+    border-radius: 5px;
+    box-shadow: 3px 6px 10px 6px #0000005c; 
+}
+
+/*marcar*/
+.marcas div{
+   
+   max-width: 800px;
+   margin: 0 auto 0 auto; 
+}
+.marcas img{
+    width: 148px;
+    height: 148px;
+    margin: 0 15px 0 15px;
+}
+
+/*localização*/
+.localização{
+    text-align: center;
+}
+.localização p{
+    font: size 20px;
+    color: #3c184e;
+    text-align: center;
+    margin: 0 0 45px 0;
+}
+
+/*rodapé*/
+.rodape{
+    width: 100%;
+    padding: 10px 0;
+    background-color: #3c184e;
+}
+.rodape p{
+    color: #ffff;
+    font-size: 12px;
+    text-align: center;
+}
+.rodape a{
+    color: #ffff;
+}
